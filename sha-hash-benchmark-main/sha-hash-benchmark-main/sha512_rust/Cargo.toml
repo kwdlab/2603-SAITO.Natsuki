@@ -1,0 +1,12 @@
+[package]
+name = "sha512_arm"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "sha512_arm"
+path = "src/lib.rs"
+
+[[bin]]
+name = "sha512_test"
+path = "src/main.rs"

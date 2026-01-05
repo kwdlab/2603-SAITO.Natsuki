@@ -1,0 +1,12 @@
+[package]
+name = "sha256_arm"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "sha256_arm"
+path = "src/lib.rs"
+
+[[bin]]
+name = "sha256_test"
+path = "src/main.rs"
