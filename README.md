@@ -3,10 +3,10 @@
 # Overview
 This project is a benchmark program that compares the execution performance of SHA-256 and SHA-512 implemented in software and using AArch64 dedicated instructions, implemented in Rust.
 # Description
-・The program repeatedly computes SHA-256 and SHA-512 hashes and measures and compares the execution time of software-based and hardware-accelerated implementations
+・The program repeatedly computes SHA-256 and SHA-512 hashes and measures and compares the execution time of software-based and hardware-accelerated implementations<br>
 ・Execution time is measured using a high-resolution timer provided by Rust’s standard library (std::time::Instant)
 # Requirements
-・rustc 1.92.0 
+・rustc 1.92.0 <br>
 ・cargo 1.92.0
 # Install / Usage
 $ RUSTFLAGS="-C target-cpu=native" cargo run --release
