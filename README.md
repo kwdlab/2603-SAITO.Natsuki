@@ -9,11 +9,11 @@ This project is a benchmark program that compares the execution performance of S
 ・rustc 1.92.0 <br>
 ・cargo 1.92.0
 # Install / Usage
-$ RUSTFLAGS="-C target-cpu=native" cargo run --release
+$ RUSTFLAGS="-C target-cpu=native" sudo nice -n -20 cargo run --release
 # Author
 Natsuki Saito
 # References
-・https://doc.rust-lang.org/std/ 
+・https://doc.rust-lang.org/std/ <br>
 ・https://csrc.nist.gov/files/pubs/fips/180-2/final/docs/fips180-2.pdf 
 # License
 MIT
