@@ -1,5 +1,5 @@
 # 2603-SAITO.Natsuki
-2026年3月卒業  西藤なつき
+
 # Overview
 This project is a benchmark program that compares the execution performance of SHA-256 and SHA-512 implemented in software and using AArch64 dedicated instructions, implemented in Rust.
 # Description
